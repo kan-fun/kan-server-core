@@ -9,5 +9,5 @@ type ChannelEmail struct {
 	UserID uint
 	User   User
 	Address string `gorm:"type:varchar(100);unique_index;not null"`
-	Count uint `gorm:"type:not null"`
+	Count uint
 }
