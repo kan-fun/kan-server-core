@@ -10,4 +10,5 @@ type Log struct {
 	User   User
 	Topic  string `gorm:"type:varchar(100);not null"`
 	Status uint8  `gorm:"default:0;not null"`
+	Type   uint8  `gorm:"default:0;not null"`
 }
