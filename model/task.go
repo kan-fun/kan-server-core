@@ -2,7 +2,7 @@ package model
 
 import "time"
 
-type Log struct {
+type Task struct {
 	ID        uint `gorm:"primary_key"`
 	CreatedAt time.Time
 
